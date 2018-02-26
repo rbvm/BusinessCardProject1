@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Business Card - Project 1</string>
-    <string name="phone">+40 770 770 770</string>
+    <string name="tv_name_biz">Tasia - Home Invent</string>
     <string name="description">Furniture and interior design</string>
+    <string name="motto">There\'s no place like home!</string>
+    <string name="phone">+40 770 770 770</string>
     <string name="website">homeinvent.wordpress.com</string>
     <string name="location">Brașov, România</string>
 </resources>
