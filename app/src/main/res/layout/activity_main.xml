@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.businesscard_project1.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/interior6" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/subheading"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/subheading"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:shadowColor="#E0E0E0"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:text="Tasia - Home Invent"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/heading"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:shadowColor="#E0E0E0"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:text="Furniture and interior design"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/motto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/subheading"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:text="There's no place like home!"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_above="@id/website"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/phone_icon"
+            android:fontFamily="sans-serif"
+            android:gravity="end"
+            android:shadowColor="#E0E0E0"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:text="@string/phone"
+            android:textAlignment="viewEnd"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_above="@id/address"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/web_icon"
+            android:fontFamily="sans-serif"
+            android:gravity="end"
+            android:shadowColor="#E0E0E0"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:text="@string/website"
+            android:textAlignment="viewEnd"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@id/location_icon"
+            android:fontFamily="sans-serif"
+            android:gravity="end"
+            android:shadowColor="#E0E0E0"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="8"
+            android:text="@string/location"
+            android:textAlignment="viewEnd"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/phone_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_above="@id/web_icon"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/phone_black" />
+
+        <ImageView
+            android:id="@+id/web_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_above="@id/location_icon"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/web3" />
+
+        <ImageView
+            android:id="@+id/location_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/location1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
